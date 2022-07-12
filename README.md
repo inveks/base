@@ -1,10 +1,5 @@
 # Base Scripts 📡 | Work in progress 🚧
 
-## Naming functions
-
-We designed a standard way for naming functions, which should start the function with the folder name, so, if the script
-is under the './domain' folder the function will start with 'domain_'. We try to be as much verbose as possible for better
-understanding "the function function".
 
 ## Function responses
 
@@ -34,43 +29,3 @@ confirm_user_action()
     USER_ACTION_RESPONSE=true
 }
 ```
-
-> This was one of the first functions we created so, we will try to keep it simple next functions, but must keep that for 
-> compatibility purposes
-
-
-
-
-***** GET FUNCTIONS AS WELL 
-
-ip_get_external_ipv4 example returns IP_EXTERNAL_IPV4
-
-## Versioning
-
-Every change should be non breakable, if it worked for you in some *main version* it should continue to work in all corrections and new functions.
-
-Versioning: v**X.Y**
-
-'X': main version
-
-'Y': corrections / new functions
-
-## Documentation
-
-There will be a specific page for documentation and samples of every function in this repo.
-
-Please check
-
-[Docs](docs/README.md)
-
-## Security Vulnerability ✋
-
-If you find any security vulnerability, please DO NOT open an issue, send an email to [benjophp@gmail.com](mailto:benjophp@gmail.com).
-
-### Shebang 
-
-- All scripts were desgined to run in bash. Hum... right, You might ask about _shebang_... yes I used absolute path in all scripts '/bin/bash'. Yes, there is discussions on that matter, but if you don't have bash, you probably know some tricks to update all files at once, right? If not I will provide you a way to do that, if you have _sed_ at least.
-
-# Support this project at [Patreon](https://www.patreon.com/inveks)
-[https://www.patreon.com/inveks](https://www.patreon.com/inveks)
-
